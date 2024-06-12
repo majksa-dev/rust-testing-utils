@@ -14,6 +14,7 @@ mod utils;
 
 pub async fn test<C, S, SFut, E, EFut, T, TFut>(setup: S, teardown: E, test: T)
 where
+    C: Sized + Send + 'static,
     S: FnOnce() -> SFut,
     SFut: Future<Output = C>,
     T: FnOnce(&mut C) -> TFut,
