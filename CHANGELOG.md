@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/majksa-dev/rust-testing-utils/compare/v0.1.0...v0.1.1) (2024-06-12)
+
+
+### Bug Fixes
+
+* test context requirements ([d51cb82](https://github.com/majksa-dev/rust-testing-utils/commit/d51cb820dfcbdde9506c3658176a87fdb27bde53))
+
 ## 0.1.0 (2024-06-12)
 
 
