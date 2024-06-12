@@ -5,6 +5,8 @@ async fn teardown(ctx: usize) {
 }
 
 #[utils::test(teardown = teardown)]
-async fn single_server(_ctx: &mut usize) {}
+async fn single_server(ctx: usize) {
+    ctx
+}
 
 fn main() {}

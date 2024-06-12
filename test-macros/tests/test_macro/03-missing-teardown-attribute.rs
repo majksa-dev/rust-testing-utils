@@ -5,6 +5,8 @@ async fn setup() -> usize {
 }
 
 #[utils::test(setup = setup)]
-async fn single_server(_ctx: &mut usize) {}
+async fn single_server(ctx: usize) {
+    ctx
+}
 
 fn main() {}

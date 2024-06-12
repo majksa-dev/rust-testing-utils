@@ -12,17 +12,16 @@ use futures_util::Future;
 mod bin;
 mod utils;
 
-pub async fn test<C, S, SFut, E, EFut, T, TFut>(setup: S, teardown: E, test: T)
+pub async fn test<C1, C2, S, SFut, E, EFut, T, TFut>(setup: S, teardown: E, test: T)
 where
-    C: Sized + Send + 'static,
     S: FnOnce() -> SFut,
-    SFut: Future<Output = C>,
-    T: FnOnce(&mut C) -> TFut,
-    TFut: Future<Output = ()>,
-    E: FnOnce(C) -> EFut,
+    SFut: Future<Output = C1>,
+    T: FnOnce(C1) -> TFut,
+    TFut: Future<Output = C2>,
+    E: FnOnce(C2) -> EFut,
     EFut: Future<Output = ()>,
 {
-    let mut ctx = setup().await;
-    test(&mut ctx).await;
-    teardown(ctx).await;
+    let c1 = setup().await;
+    let c2 = test(c1).await;
+    teardown(c2).await;
 }
