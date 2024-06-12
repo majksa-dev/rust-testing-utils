@@ -1,5 +1,5 @@
 [package]
-name = "rust-lib"
+name = "testing-utils"
 version = "0.0.1"
 edition = "2021"
 

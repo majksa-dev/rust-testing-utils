@@ -1,8 +1,8 @@
-# rust-lib
+# Testing utils
 
-rust-lib description
+Library to improve testing experience in Rust.
 
-[Crate API Documentation](https://majksa-dev.github.io/rust-lib/)
+[Crate API Documentation](https://majksa-dev.github.io/rust-testing-utils/)
 
 **Table of contents**
 
@@ -10,15 +10,15 @@ rust-lib description
 
 ### Installation
 
-To use `rust-lib`, add the following to your Cargo.toml:
+To use `testing-utils`, add the following to your Cargo.toml:
 
 <!-- x-release-please-start-version -->
 
 ```toml
-[dependencies]
-rust-lib = { tag = "v0.0.1", git = "https://github.com/majksa-dev/rust-lib" }
+[dev-dependencies]
+testing-utils = { tag = "v0.0.1", git = "https://github.com/majksa-dev/rust-testing-utils" }
 ```
 
-or simply run `cargo add --git https://github.com/majksa-dev/rust-lib --tag v0.0.1`
+or simply run `cargo add --dev --git https://github.com/majksa-dev/rust-testing-utils --tag v0.0.1`
 
 <!-- x-release-please-end -->
