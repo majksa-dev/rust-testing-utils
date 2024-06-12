@@ -1,0 +1,7 @@
+error: teardown attribute not found
+ --> tests/test_macro/03-missing-teardown-attribute.rs:7:1
+  |
+7 | #[utils::test(setup = setup)]
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: this error originates in the attribute macro `utils::test` (in Nightly builds, run with -Z macro-backtrace for more info)

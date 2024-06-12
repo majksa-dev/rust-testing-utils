@@ -1,0 +1,7 @@
+error: setup attribute not found
+ --> tests/test_macro/02-missing-setup-attribute.rs:7:1
+  |
+7 | #[utils::test(teardown = teardown)]
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: this error originates in the attribute macro `utils::test` (in Nightly builds, run with -Z macro-backtrace for more info)

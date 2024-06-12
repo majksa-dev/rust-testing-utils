@@ -1,22 +1,30 @@
-workspace = { members = [ "test-macros" ] }
 [package]
-name = "testing-utils"
-version = "0.0.1"
+name = "test-macros"
+version = "0.1.0"
 edition = "2021"
+
+[lib]
+proc-macro = true
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-essentials = { tag = "v0.3.1", git = "https://github.com/majksa-dev/rust-essentials" }
 chrono = { version = "0.4.20", default-features = false, features = ["clock", "serde"] }
-test-macros = { path = "test-macros" }
 derive_more = "0.99.7"
+env_logger = "0.11"
+eyre = { version = "0.6", default-features = false, features = ["auto-install", "track-caller"] }
+color-eyre = "0.6"
 futures-util = { version = "0.3.17", default-features = false, features = ["std"] }
-rand = "0.8"
-slab = "0.4"
+log = "0.4"
 serde = "1.0.197"
 serde_json = "1.0.114"
+tokio = { version = "1", features = ["full"] }
 assert_fs = { version = "1.1.1", features = ["color"] }
 surf = "2.3.2"
-testcontainers = "0.17.0"
-tokio = { version = "1.16.1", features = ["full"] }
+quote = "1.0.36"
+proc-macro2 = "1.0.82"
+syn = "2.0.61"
+
+[dev-dependencies]
+trybuild = "1.0.94"
+testing-utils = { path = ".." }
