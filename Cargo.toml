@@ -10,7 +10,7 @@ edition = "2021"
 essentials = { tag = "v0.3.1", git = "https://github.com/majksa-dev/rust-essentials" }
 chrono = { version = "0.4.20", default-features = false, features = ["clock", "serde"] }
 test-macros = { path = "test-macros" }
-derive_more = "0.99.7"
+derive_more = "0.99.18"
 futures-util = { version = "0.3.17", default-features = false, features = ["std"] }
 rand = "0.8"
 slab = "0.4"
