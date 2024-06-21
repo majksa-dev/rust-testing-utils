@@ -9,6 +9,17 @@
 * **deps:** bump derive_more from 0.99.17 to 0.99.18 ([6517c8e](https://github.com/majksa-dev/rust-testing-utils/commit/6517c8e8eb05bc311f26f1eb83a9bed2a2647c70))
 * **deps:** bump serde from 1.0.201 to 1.0.203 ([8614eb1](https://github.com/majksa-dev/rust-testing-utils/commit/8614eb13773cea607ca5dd07b375079d1c2a73ce))
 * **deps:** bump testcontainers from 0.17.0 to 0.18.0 ([3a575f0](https://github.com/majksa-dev/rust-testing-utils/commit/3a575f077a4706110238fdf31270a3a7e6f8273e))
+* migrate actions to github apps ([45acada](https://github.com/majksa-dev/rust-testing-utils/commit/45acada536e46e24b6a89fd1251032f55dfa4e5d))
+
+## [0.1.3](https://github.com/majksa-dev/rust-testing-utils/compare/v0.1.2...v0.1.3) (2024-06-21)
+
+
+### Bug Fixes
+
+* bump dependencies ([3ecbc4d](https://github.com/majksa-dev/rust-testing-utils/commit/3ecbc4dd610c64c7f8256323d97a9cd3cb26942b))
+* **deps:** bump derive_more from 0.99.17 to 0.99.18 ([6517c8e](https://github.com/majksa-dev/rust-testing-utils/commit/6517c8e8eb05bc311f26f1eb83a9bed2a2647c70))
+* **deps:** bump serde from 1.0.201 to 1.0.203 ([8614eb1](https://github.com/majksa-dev/rust-testing-utils/commit/8614eb13773cea607ca5dd07b375079d1c2a73ce))
+* **deps:** bump testcontainers from 0.17.0 to 0.18.0 ([3a575f0](https://github.com/majksa-dev/rust-testing-utils/commit/3a575f077a4706110238fdf31270a3a7e6f8273e))
 
 ## [0.1.2](https://github.com/majksa-dev/rust-testing-utils/compare/v0.1.1...v0.1.2) (2024-06-12)
 
