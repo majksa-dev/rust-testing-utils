@@ -25,7 +25,7 @@ tokio = { version = "1", features = ["full"] }
 assert_fs = { version = "1.1.1", features = ["color"] }
 surf = "2.3.2"
 quote = "1.0.36"
-proc-macro2 = "1.0.82"
+proc-macro2 = "1.0.86"
 syn = "2.0.68"
 
 [dev-dependencies]
