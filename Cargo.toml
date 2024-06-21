@@ -7,16 +7,16 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-essentials = { tag = "v0.3.1", git = "https://github.com/majksa-dev/rust-essentials" }
-chrono = { version = "0.4.20", default-features = false, features = ["clock", "serde"] }
+essentials = { tag = "0.3.6", git = "https://github.com/majksa-dev/rust-essentials" }
+chrono = { version = "0.4.38", default-features = false, features = ["clock", "serde"] }
 test-macros = { path = "test-macros" }
 derive_more = "0.99.18"
-futures-util = { version = "0.3.17", default-features = false, features = ["std"] }
-rand = "0.8"
-slab = "0.4"
+futures-util = { version = "0.3.30", default-features = false, features = ["std"] }
+rand = "0.8.5"
+slab = "0.4.9"
 serde = "1.0.203"
-serde_json = "1.0.114"
+serde_json = "1.0.117"
 assert_fs = { version = "1.1.1", features = ["color"] }
 surf = "2.3.2"
 testcontainers = "0.18.0"
-tokio = { version = "1.16.1", features = ["full"] }
+tokio = { version = "1.38.0", features = ["full"] }

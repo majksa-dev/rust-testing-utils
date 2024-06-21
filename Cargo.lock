@@ -901,8 +901,8 @@ dependencies = [
 
 [[package]]
 name = "essentials"
-version = "0.3.1"
-source = "git+https://github.com/majksa-dev/rust-essentials?tag=v0.3.1#da083020e081d09cf480f465f5d7fc4db9525f40"
+version = "0.3.6"
+source = "git+https://github.com/majksa-dev/rust-essentials?tag=0.3.6#c1a0e2f6df9c383ea727dabe8ad79bf3a9d8e496"
 dependencies = [
  "color-eyre",
  "dotenv",
