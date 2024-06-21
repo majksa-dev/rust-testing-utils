@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.4](https://github.com/majksa-dev/rust-testing-utils/compare/v0.1.3...v0.1.4) (2024-06-21)
+
+
+### Bug Fixes
+
+* migrate actions to github apps ([45acada](https://github.com/majksa-dev/rust-testing-utils/commit/45acada536e46e24b6a89fd1251032f55dfa4e5d))
+* run tests only on PR ([ee5590c](https://github.com/majksa-dev/rust-testing-utils/commit/ee5590cf2ccecc8d8e8752201c1e0358e335f707))
+
 ## [0.1.3](https://github.com/majksa-dev/rust-testing-utils/compare/v0.1.2...v0.1.3) (2024-06-21)
 
 
