@@ -16,9 +16,9 @@ To use `testing-utils`, add the following to your Cargo.toml:
 
 ```toml
 [dev-dependencies]
-testing-utils = { tag = "0.1.4", git = "https://github.com/majksa-dev/rust-testing-utils" }
+testing-utils = { tag = "0.1.5", git = "https://github.com/majksa-dev/rust-testing-utils" }
 ```
 
-or simply run `cargo add --dev --git https://github.com/majksa-dev/rust-testing-utils --tag 0.1.4`
+or simply run `cargo add --dev --git https://github.com/majksa-dev/rust-testing-utils --tag 0.1.5`
 
 <!-- x-release-please-end -->

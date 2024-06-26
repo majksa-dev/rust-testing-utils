@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.5](https://github.com/majksa-dev/rust-testing-utils/compare/v0.1.4...v0.1.5) (2024-06-26)
+
+
+### Bug Fixes
+
+* **deps:** bump proc-macro2 from 1.0.85 to 1.0.86 ([aa79f96](https://github.com/majksa-dev/rust-testing-utils/commit/aa79f96bf72929e196c7210fbcd0a2e00e726733))
+* **deps:** bump serde_json from 1.0.117 to 1.0.118 ([62663d8](https://github.com/majksa-dev/rust-testing-utils/commit/62663d8373883e103534d933edc0764de36a5dd3))
+* **deps:** bump syn from 2.0.66 to 2.0.68 ([51dc7f5](https://github.com/majksa-dev/rust-testing-utils/commit/51dc7f5f65c1c39ab370c924dae3c328886624b0))
+* forward test attributes to allow ignoring tests ([ede1f6e](https://github.com/majksa-dev/rust-testing-utils/commit/ede1f6ef3bc2b240051946be9777edf6aeceb051))
+
 ## [0.1.4](https://github.com/majksa-dev/rust-testing-utils/compare/v0.1.3...v0.1.4) (2024-06-21)
 
 
