@@ -15,7 +15,7 @@ pub fn server_cmd() -> Command {
         Some(cmd) => Command::new(cmd),
         None => {
             let mut cmd = Command::new("cargo");
-            cmd.arg("run");
+            cmd.arg("run").arg("--release");
             cmd
         }
     }

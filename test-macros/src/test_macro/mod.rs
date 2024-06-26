@@ -12,9 +12,11 @@ pub fn handle(attr: TokenStream, item: ItemFn) -> Result<TokenStream, String> {
     let setup = Ident::new(&setup, Span::call_site());
     let teardown = Ident::new(&teardown, Span::call_site());
     let fn_name = &item.sig.ident;
+    let attributes = item.attrs.clone();
 
     Ok(quote! {
         #[test]
+        #(#attributes)*
         fn #fn_name() {
             #item
             testing_utils::tokio::runtime::Builder::new_multi_thread()
